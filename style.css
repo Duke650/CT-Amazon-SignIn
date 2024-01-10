@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 4rem 0px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: .25rem;
+    background-color: rgba(198, 198, 198, 0.067);
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    width: 45%;
+    border-radius: 5px;
+}
+
+form > input {
+    margin-bottom: 1.5rem;
+    padding: .25rem;
+}
+
+form > input[type="text"]:focus, input[type="password"]:focus {
+    padding: .5rem;
+    transition: 300ms;
+    border: 1px solid rgb(252, 204, 14);
+}
+
+.form-lable {
+    opacity: .5;
+}
+
+
+label {
+    font-size: .75rem;
+}
+
+
+.password-lable-container {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.password-lable {
+    align-self: center;
+}
+ 
+ 
+
+.continue-button {
+    background-color: rgb(252, 204, 14);
+    border: none;
+    border-radius: 10px;
+}
+
+.continue-button:hover {
+    background-color: rgba(255, 200, 0, 0.587);
+    transition: 500ms; 
+    transform: translateY(2px); 
+    cursor: pointer;
+}
+
+.forgot-password {
+    font-size: .75rem;
+    text-decoration: none;
+}
+
+.need-help {
+    margin-left: 1rem;
+    font-size: .75rem;
+    text-decoration: none;
+}
+
+.create-account-container {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    align-items: center;
+    margin: .5em;
+}
+
+.create-account-container > p {
+    opacity: .5;
+}
+
+.create-account-button {
+    padding: .5rem;
+    width: 30%;
+    background-color: rgb(74, 239, 74);
+    border: 1px solid rgba(0, 0, 0, 0.216);
+    border-radius: 5px;
+
+}
+
+.create-account-button:hover {
+    background-color: rgba(19, 234, 19, 0.559);
+    transition: 500ms; 
+    transform: translateY(2px); 
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    margin: 5em;
+}
+
+footer > p {
+    font-size: .75em;
+}
+
+.links {
+    display: flex;
+    gap: .5rem;
+    font-size: .75rem;
+}
+
+.line-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.line-container > p {
+    padding: 10px;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    min-width: 8rem;
+}
+
+
+
+
